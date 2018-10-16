@@ -7,6 +7,7 @@ from random import *
 import urllib2
 from dateutil.parser import parse
 
+'''Les détails de l’algorithme sont précisés dans le RFC4086.'''
 
 __all__ = ( 'totp','hotp')
 
